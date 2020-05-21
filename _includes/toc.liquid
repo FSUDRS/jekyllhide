@@ -1,0 +1,12 @@
+{% layout "base.liquid" %}
+{% block content %}
+{% capture files_raw %}{{ files }}{% endcapture %}
+{% assign files = files_raw | remove: ".xml" | split: ',' %}
+<title>Collection</title>
+<h1>Collection</h1>
+<ul>
+{% for file in files %}
+<li><a href="{{file}}">{{file}}</a></li>
+{% endfor %}
+</ul>
+{% endblock %}
