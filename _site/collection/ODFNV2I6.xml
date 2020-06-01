@@ -1,0 +1,309 @@
+<?xml-model href="ODD/out/AntarcticDraft.rnc" type="application/relax-ng-compact-syntax"?><?xml-model href="ODD/out/AntarcticDraft.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Operation Deep Freeze Newsletter Volume 2 Issue 6</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Florida State University, Office of Digital Research and Scholarship</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/2.0/">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>Tallahassee, Florida</placeName>
+                  <institution>Florida State University</institution>
+                  <!-- INCLUDE (as collection) -->
+                  <collection>Robert E. Hancock Jr. Antarctic Collection</collection>
+                  <!-- INCLUDE (as iid) -->
+                  <idno type="IID">FSU_MSS_1976022_B07_F01_V2I6</idno>
+=
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <!-- INCLUDE (as title) -->
+                     <title>Operation Deep Freeze Newsletter Volume 2 Issue 6</title>
+                     <!-- INCLUDE (as author) -->
+                     <author>United States. Naval Support Force, Antarctica</author>
+                     <!-- INCLUDE  (as docdate; @when)-->
+                     <docDate when="1957-05-17">May 17, 1957</docDate>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb facs="PLACEHOLDER" n="1"/>
+         <div type="nameplate">
+            <head style="text-decoration: underline; text-align: center; text-transform: uppercase;">Operation Deep Freeze <choice>
+                  <sic>Newslatter</sic>
+                  <corr>Newsletter</corr>
+               </choice>
+                </head>
+            <lb/>
+            <ab>
+               <num type="volume" value="2">Volume II</num>, <num type="issue" value="6">No. 6</num>
+               <date when="1975-05-17">May 17,1957</date>
+            </ab>
+            <lb/>
+         </div>
+         <div type="article" subtype="NAFMcMurdo">
+            <p>
+                    <placeName ref="#NAFMcMurdo">NAF MCMURDO</placeName> -- (<date when="1957-05-14">May
+                  14</date>) -- A blizzard struck this base today, with 28 hours of 38-knot winds or
+               above. The highest average hourly velocity was 50 knots, and peak gusts reached 82.5
+               knots.</p>
+            <lb/>
+            <ab>Hardest hit were wires and antennas, but a minimum of building damage was sustained.
+               A rundown of damage is as follows:</ab>
+            <lb/>
+            <p>Seventy-five foot pole down in feed-in end of Balboa Rhombic; Balboa Rhombic wire
+               down; New Zealand Rhombic wire down; Palmer Peninsula doublet loosened and split in
+               middle; north-south and east-west doublets loosened; all Rhombic poles have <choice>
+                  <sic>aminimum</sic>
+                  <corr>a minimum</corr>
+               </choice> of two guys each detached, and some poles are held up by one guy only;
+               approximately 1,000 feet of all transmission lines down with standoff insulators
+               snapped and remaining transmission lines loosened considerably; tarpaulin on false
+               roof of transmitter building partly blown off; snow entered transmitter building and
+               found way into some transmitters, but equipment was off at time; one power line pole
+               down; approximately 800 feet of power line down; nine stations on the power amplifier
+               system inoperative; various guy wire failures and resulting 75-foot pole collapse due
+               to turnbuckle loosening and finally paring as a result of vibration in guy wires by
+               high winds.</p>
+            <lb/>
+            <ab>Estimated completion date for damage repair is <date when="1957-06-07">June
+               7</date>, depending upon the weather.</ab>
+            <lb/>
+         </div>
+         <div type="article" subtype="SouthPoleStation">
+            <p>
+                    <placeName ref="#SouthPoleStation">SOUTH POLE STATION</placeName> -- (<date when="1957-05-11">May 11</date>) -- According to data and records available at
+               this station, a new world's low temperature record was established at the <placeName ref="#SouthPoleStation">South Pole</placeName> today. At 2:30p.m. (Greenwich,
+               England, time; 9:30 a.m. EST) the official temperature registered 100° below
+               zero Fahrenheit, marking the low point of two days of steadily falling
+               temperature.</p>
+            <lb/>
+            <ab>The previous record low was recorded in the northern Siberian village of Verkoyansk
+               in February, 1892, when the thermometer there descended to 90 degrees below
+               zero.</ab>
+            <lb/>
+            <p>The temperature inside the tunnels surrounding and interconnecting the buildings lags
+               behind the temperature outside, but it was already close in -72°. Moist air from
+               the buildings causes dense fog in the tunnels, reducing visibility to a matter of
+               yards.</p>
+            <lb/>
+            <ab>Outside the air was perfectly clear as the moon slowly rose above the horizon to
+               cast the only natural light (other than starlight and the Aurora Australis) that will
+               be seen here until the return of the sun on <date when="1957-08-23">Sept.
+               23</date>.</ab>
+            <lb/>
+            <ab>The normal routine of the 18 men manning the South Pole continued despite
+               difficulties imposed by the decreasing temperature, and knowing that the thermometer
+               will probably drop another 20 degrees.</ab>
+            <lb/>
+            <ab>By the calendar, winter does not officially begin until <date when="1957-06-21">June
+                  21</date>, but the frost is already on the "punkins."</ab>
+         </div>
+         <div type="article" subtype="LittleAmerica">
+            <ab>
+                    <placeName ref="#LittleAmerica">LITTLE AMERICA</placeName> -- (<date when="1957-05-12">May 12</date>) -- Simultaneous with the establishment of the
+               world's lowest official temperature record of -100° Fahrenheit at the <placeName ref="#SouthPoleStation">South Pole Station</placeName>, <placeName ref="#LittleAmerica">Little America</placeName> experienced a record-breaking
+               "heat wave."</ab>
+            <lb/>
+            <ab>On <date when="1957-05-11">May 11</date> the thermometer at Little America
+               registered plus 30°F., a difference of 130 degrees within a distance of
+               approimately 700 nautical miles.</ab>
+            <lb/>
+            <fw>-- <num type="page" value="1">1</num> --</fw>
+            <pb facs="PLACEHOLDER" n="2"/>
+            <lb/>
+            <ab>The previous all-time high temperature recorded for May at <placeName ref="#LittleAmerica">Little America</placeName> was plus 25 degrees F.</ab>
+            <lb/>
+            <p>Accompanying the high temperature were record-breaking May gale winds of 60 miles per
+               hour. The previous all-time record for May at <placeName ref="#LittleAmerica">Little
+                  America</placeName> was 47 miles per hour.</p>
+            <lb/>
+            <p>Heat waves and wind bring more problems to <placeName ref="#LittleAmerica">Little
+                  America</placeName> than does cold weather. The roofs of buildings are not
+               constructed to be absolutely waterproof because the exterior roof temperature is
+               below freezing most of the year, thus presenting no problem of leakage. During
+               unusual warm spells such as this, snow melts on the roof surfaces, creating multiple
+               leaks inside.</p>
+            <lb/>
+            <p>Also some buildings in sheltered areas of the camp have difficulty keeping cool
+               enough at such times. With the heater control turned to the lowest position,
+               buildings still overheat, thus attesting to effective design for extreme cold and
+               efficient insulation.</p>
+            <lb/>
+            <p>High winds blow snow into mountainous drifts. A portion of the new chapel, only three
+               weeks old, is already inundated beneath five feet of snow above roof level. The
+               current storm covered the chimney completely, necessitating the heater to be turned
+               off until the stack can be dug out.</p>
+            <lb/>
+            <ab>It seems ironical to wish for cold weather in the Antarctic winter, but such is the
+               case at <placeName ref="#LittleAmerica">Little America</placeName> today.</ab>
+            <lb/>
+         </div>
+         <div type="article" subtype="LittleAmerica">
+            <p>
+                    <placeName ref="#LittleAmerica">LITTLE AMERICA</placeName> -- The organization of
+               Deep Freeze II began just over a year ago, <date when="1956-05-08">May 8,
+               1956</date>, when MCB Special, Detachment Bravo, was established upon dispatch
+               authority from COMCBLANT. Approximately 60 Bravo personnel had reported for duty.
+                  <persName ref="#WilliamFFlynn">CDR William F. Flynn</persName> and five officers
+               were present.</p>
+            <lb/>
+            <ab>Everyone upon arrival was given thorough physical and mental examinations, offices
+               were being set up and personnel were being deployed to all parts of the country for
+               specialized training.</ab>
+            <lb/>
+            <p>Looking back, the wholehearted cooperation and encouragement of COMCBLANT in
+               supporting the new organizations was outstanding. Without their help our preparatory
+               work at Davisville would have been infinitely more difficult and less efficient.</p>
+            <lb/>
+            <ab>Looking ahead one year, we shall all probably be back in the States recounting to
+               families and friends our experiences in Antarctica, and Deep Freeze II will have
+               become history.</ab>
+         </div>
+         <div type="article" subtype="LittleAmerica">
+            <ab>
+                    <placeName ref="#LittleAmerica">LITTLE AMERICA</placeName> -- (<date when="1957-05-11">May 11</date>) -- "Operation Treasure Hunt" was suggessful in
+               the fading twilight last week.</ab>
+            <lb/>
+            <p>Prospectors of the old Yukon had nothing on VX-6 detachment at <placeName ref="#LittleAmerica">Little America</placeName>. Although not hunting gold, local
+               airdales were after treasure in the form of precious spare parts for aircraft--much
+               more valuable down here than gold.</p>
+            <lb/>
+            <p>Last year on Deep Freeze I supplies had to be moved in a matter of hours from a
+               chache on the bay ice to the camp site when ice unexpectedly broke up and floated to
+               sea. Much confusion was unaviodable. It was impossible to make accurate records or
+               charts of the location of various supply dumps. Blizzards soon covered everything
+               with snow.</p>
+            <lb/>
+            <p>Everything within 100 yards of the camp perimeter was now completely lost. In any
+               direction the snow surface looked the same--perpetual, gently-sloping drifts. Visual
+               inspection and random probing yielded nothing.</p>
+            <lb/>
+            <fw>-- <num type="page" value="2">2</num> --</fw>
+            <pb facs="PLACEHOLDER" n="3"/>
+            <p>After a study by <persName ref="#HarveyGSpeed">LT Harvey G. Speed</persName> of
+                  <placeName ref="#NorthMuskegonMI">North Muskegon, Mich</placeName>, of aerial
+               photos taken last year, <persName ref="#JamesEWaldron">LCDR James E. Waldron,
+                  Jr.</persName>, of <placeName ref="#NewOrleansLA">New Orleans, La.</placeName>,
+               decided to explore certain clues in hope of locating missing spare parts. Supervised
+               by <persName ref="#HarveyGSpeed">Lt Speed</persName> and <persName ref="#RobertGAnderson">Lt Robert G. Anderson</persName> of <placeName ref="#AlamedaCA">Alameda, Calif.</placeName>, the crew began prospecting. After
+               measuring angles and distances from permanent buildings, the areas of greatest
+               probability were staked out. These were combed with a mine detector which proved of
+               little value since the penetration signal into the snow was too shallow.</p>
+            <lb/>
+            <p>At this point a D-8 Caterpillar tractor, piloted by <persName ref="#DemarEWard">Demar
+                  E. Ward, Jr.</persName>, Construction Driver 1/c, of <placeName ref="#FortSmithAR">Fort Smith, Ark.</placeName>, was called in. Slowly, almost gingerly, he pushed
+               great drifts of snow aside. Suddenly a crate appeared. Tractor operations were halted
+               and a "Mexican drag line" (long handled shovels) was manned by <persName ref="#BernestGMelton">Bernest G. Melton</persName>, aviation machinist's mate 1/c
+               of <placeName ref="#WadesboroNC">Wadesboro, N.C.</placeName> and <persName ref="#JamesCLeischner">James C. Leischner</persName>, Aviation electronics
+               technician 3/c of <placeName ref="#CiscoIL">Cisco, Ill</placeName>.</p>
+         </div>
+         <div type="article">
+            <p>AROUND THE BASES -- (<date when="1957-05-13">May 13</date>) -- <placeName ref="#LittleAmerica">Little America</placeName>: The Little America University of
+               Antarctica is in session with couress in calculus, Spanish, photography, bible study,
+               choir and drama. Further courses are planned. Recreation hall is 80% completed.
+               Tractor train load test underway. Received a broadcast from the Russian base, Mirny,
+               of a Radio Moscow tape recording for <persName ref="#VladimirRastorguev">
+                        <choice>
+                     <sic>Valdimir</sic>
+                     <corr>Vladimir</corr>
+                  </choice> Rastorguev</persName>, Russian observer and Meteorologist here. Post
+               office moved from the Rec. Hall to Bldg. 5, publicworks building....... <placeName ref="#NAFMcMurdo">NAF McMurdo</placeName>: Deck completed and Quonset frames up
+               for temporary building (garage) .... <placeName ref="#CapeAdare">Adare</placeName>:
+               Lack of tunnel system requires digging out after storms...... <placeName ref="#SouthPoleStation">South Pole</placeName>: All communications equipment
+               installed. Glaciology cold lab completed ..... <placeName ref="#WilkesStation">Wilkes</placeName>: One weasel modified for use as a fire engine with large
+               ladders and fire fighting gear installed. Sixteen by twenty foot wooden shelter
+               erected for photo storage and general <choice>
+                  <sic>stowage</sic>
+                  <corr>storage</corr>
+               </choice>.</p>
+            <lb/>
+         </div>
+         <div type="article" subtype="LittleAmerica">
+            <p>
+                    <placeName ref="#LittleAmerica">LITTLE AMERICA</placeName> -- <date when="1957-05-11">May 11</date> -- The Antarctic Beard Club of Little America a growing the
+               bushiest crop of whiskers and the widest variety of beards imaginable. Organized last
+               January by <persName ref="#CharlesMDarter">Charles M. Darter</persName>, Chief
+               Construction Driver, of <placeName ref="#AustinTX">Austin, Texas</placeName>;
+                  <persName ref="#KennethAElliot">Kenneth A. Elliot</persName>, Construction Driver
+               1/c of <placeName ref="#LancasterPA">Lancaster, Pa.</placeName>; <persName ref="#StevenMuniz">Steven Muniz</persName>, Construction Driver 2/c of <placeName ref="#SugarCityCO">Sugar City, Colo.</placeName>; and <persName ref="#SterkelLCoyne">Sterkel L. Coyne</persName>, Construction Driver 3/c of
+                  <placeName ref="#PiquaOH">Piqua, Ohio</placeName>; the club has expanded to 17
+               members.</p>
+            <lb/>
+            <ab>Two qualifications for membership are: Individual must be "man enough" to grow a
+               beard (moustache alone is insufficient), and the man must vow not to shave until he
+               reaches the United States. If the man shaves or permits his beard</ab>
+            <lb/>
+            <fw>-- <num>3</num> --</fw>
+            <pb facs="PLACEHOLDER" n="4"/>
+            <ab>to be removed prior to arrival in the U.S., he must pay a penalty of $5 to every
+               other member. At present this would cost $80.</ab>
+            <lb/>
+            <ab>There are, however, two exceptions to the rule: If the man is directed by the
+               medical officer to shave for health reasons, or if ordered to shave by competent
+               military authority before arrival in the U.S.</ab>
+            <lb/>
+            <p>The senior club member is <persName ref="#WillieMDickey">Capt W. Mills
+                  Dickey</persName>, commander of Naval Support Units, Antarctica, of <placeName ref="#RuskTX">Rusk, Texas</placeName>. Other members, in addition to the
+               organizers, are <persName ref="#RobertSBallou">Robert S. Ballou</persName>, Radioman
+               3/c, of <placeName ref="#RoanokeVA">Roanoke, Va.</placeName>; <persName ref="#HaroldDKCrain">Harold D. K. Crain</persName>, Utilitiesman 3/c, of
+                  <placeName ref="#MontoursvillePA">Montoursville, Pa.</placeName>; <persName ref="#ForrestEDurnell">Forrest E. Durnell</persName>, Storekeeper 1/c of
+                  <placeName ref="#IndependenceMO">Independence, Mo.</placeName>; <persName ref="#BobbieFGrice">Bobbie F. Grice</persName>, Radioman 1/c, of <placeName ref="#HubbardTX">Hubbard, Texas</placeName>; <persName ref="#JulianPGudmunson">Julian P. Gudmunson</persName>, Chief Builder, of <placeName ref="#StPaulMN">St.
+                  Paul, Minn.</placeName>; <persName ref="#RobertEJones">Robert E. Jones</persName>,
+               Construction Driver 2/c, of <placeName ref="#SurquinsvilleTN">Surquinsville,
+                  Tenn.</placeName>; <persName ref="#HectorKLett">Hector K. Lett</persName>,
+               Construction Driver 3/c, of <placeName ref="#KnoxvilleTN">Knoxville,
+                  Tenn.</placeName>; <persName ref="#JerryFMann">Jerry F. Mann</persName>,
+               Utilitiesman 3/c, of <placeName ref="#QuincyIL">Quincy, Ill.</placeName>; <persName ref="#FranklinOStackhouse">Franklin O. Stackhouse</persName>, Chief Aviation
+               Electronics Technician, of <placeName ref="#MeadbillePA">Meadbille, Pa.</placeName>;
+                  <persName ref="#BernardFVerboncouer">Bernard F. Verboncouer</persName>, Chief
+               Quartermaster, of <placeName ref="#GreenBayWI">Green Bay, Wisc.</placeName>;
+                  <persName ref="#DemarEWard">Demar E. Ward</persName>, Jr., Construction Driver
+               1/c, of <placeName ref="#FortSmithAR">Fort Smith, Ark.</placeName>; and <persName ref="#WilliamJWilliams">William J. Williams, Jr.</persName>, Chief Radioman, of
+                  <placeName ref="#HarlingenTX">Harlingen, Tex.</placeName>
+                </p>
+            <lb/>
+            <p>Many people growing beards have not joined the club. The current total is 76 beards,
+               six moustaches and 27 clean-shaven faces. The beards are now long enough for
+               trimming. Interesting styles include Van Dyke, mutton chop, goatee, and handlebar
+               moustache, in addition to natural growth.</p>
+            <lb/>
+            <p>All beards must be well groomed, requiring frequent shampoos, brushing and combing.
+               The consensus of opinion is that to have a beard is more time consuming than to
+               shave. Most personnel working outside prefer a beard. It seems to keep the face
+               warmer even though the breath condenses and forms ice on the surface of the beard.
+               It's believed that air trapped in the beard next to the face provides insulation.</p>
+            <lb/>
+            <p>Colors of the beards are sometimes surprising. <persName ref="#FranklinOStackhouse">Chief Stackhouse</persName> has dark hair but a red beard. <persName ref="#WillieMDickey">Capt Dickey</persName> and <persName ref="#BernardFVerboncouer">Chief Verboncouer</persName> have jet black beards
+               marked by sharply defined vertical silver panels approximately one and a half inches
+               in the moustache and chin. <persName ref="#JohnEZoller">Chaplain John E.
+                  Zoller</persName> of <placeName ref="#ShelbyMI">Shelby, Mich.</placeName>, has
+               dark hair but a gray, almost white, beard.</p>
+            <lb/>
+            <p>Texture of some beards is soft and silky, while others are wiry and a few are just
+               fuzz. Some are straight, some wavy and some curly. A few men have recently "come
+               clean" and shaved. It's a startling change in appearance, almost unrecognizable at
+               first. This causes many to speculate if families and friends would recognize them
+               wearing a beard. Some will rely on photos to show their families, while others plan
+               to wear their beards home if military authority permits.</p>
+            <lb/>
+            <lb/>
+            <lb/>
+            <lb/>
+            <lb/>
+            <fw>-- <num type="page" value="4">4</num> --</fw>
+         </div>
+      </body>
+   </text>
+</TEI>
