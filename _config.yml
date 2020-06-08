@@ -1,0 +1,9 @@
+title: Pilot
+email: 
+description: making collections out of TEI into HTML in the browser using CETEIcean
+github_username: sraybuck
+baseurl : "" #change to github project name when it goes up on github pages
+
+collections:
+  odfn:
+    output : true

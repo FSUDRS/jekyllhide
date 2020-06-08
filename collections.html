@@ -1,0 +1,11 @@
+---
+layout: base
+title: Collection
+---
+<title>Collection</title>
+<h1>Collection</h1>
+<ul>
+    {% for work in site.odfn %}
+      <li><a href={{work.url}}>{{work.filename}}</a></li>
+    {% endfor %}
+  </ul>

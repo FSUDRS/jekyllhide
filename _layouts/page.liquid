@@ -1,0 +1,25 @@
+---
+layout: base
+---
+<div id="TEI">
+</div>
+<script src="{{baseurl}}/assets/js/CETEI.js"></script>
+<script>
+  function insertAfter(newNode, referenceNode) {
+    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+  }
+  var CETEIcean = new CETEI();
+  CETEIcean.getHTML5("{{baseurl}}/collection/{{page.filename}}.xml", function (data) {
+    //parse out data variable
+    document.getElementById("TEI").innerHTML = "";
+    document.getElementById("TEI").appendChild(data);
+    CETEIcean.addStyle(document, data);
+  });
+
+    // Alternatively, use then()
+    // (new CETEI).getHTML5('testTEI.xml').then(function(data){
+    //   document.getElementById("TEI").appendChild(data);
+    // });
+
+</script>
+<script src="https://hypothes.is/embed.js" async></script>

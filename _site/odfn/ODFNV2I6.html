@@ -22,10 +22,28 @@
 
     <div class="container">
       <div id="content">
-        <title>About</title>
-<h1>About</h1>
-<p>This is a prototype for Peggy Wright-Cleveland's Dadie poetry digital edition. I'm working with a really wild combination of express, liquid templates, CETEIcean js and json all running on a node server.</p>
+        <div id="TEI">
+</div>
+<script src="/assets/js/CETEI.js"></script>
+<script>
+  function insertAfter(newNode, referenceNode) {
+    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+  }
+  var CETEIcean = new CETEI();
+  CETEIcean.getHTML5("/collection/ODFNV2I6.xml", function (data) {
+    //parse out data variable
+    document.getElementById("TEI").innerHTML = "";
+    document.getElementById("TEI").appendChild(data);
+    CETEIcean.addStyle(document, data);
+  });
 
+    // Alternatively, use then()
+    // (new CETEI).getHTML5('testTEI.xml').then(function(data){
+    //   document.getElementById("TEI").appendChild(data);
+    // });
+
+</script>
+<script src="https://hypothes.is/embed.js" async></script>
       </div> 
     </div>
     <div id="footer">

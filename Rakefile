@@ -28,4 +28,15 @@ namespace :pilot do
     filenames = Dir.glob("collection/*.xml")
     File.write("_data/meta.json", { "files" => parse(filenames) }.to_json)
   end
+
+  desc "generate pages in collection folder"
+  task :pages, :collection do |t, args|
+    puts args[:collection]
+    filenames = Dir.glob("collection/*.xml")
+    filenames.each { |filename|
+      token = filename.gsub("collection/", "").gsub(".xml", "")
+      frontmatter = "---\nlayout: page\nfilename: #{token}\n---"
+      File.write("_#{args[:collection]}/#{token}.md", frontmatter)
+    }
+  end
 end
