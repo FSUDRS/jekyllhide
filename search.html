@@ -10,5 +10,9 @@ layout: base
 <div id="results"></div>
 <ul id="search_results"></ul>
 
-<script src="/assets/js/elasticlunr.min.js"></script>
-<script type="text/javascript" src="/assets/js/search.js"></script>
+{% for text in site.data.meta.files %}
+<li>{{text.title}}</li>
+{%endfor%}
+
+<script src="{{baseurl}}/assets/js/elasticlunr.min.js"></script>
+<script type="text/javascript" src="{{baseurl}}/assets/js/search.js"></script>

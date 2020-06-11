@@ -1,6 +1,6 @@
 namespace :pilot do
   desc "create JSON for website"
-  task :json do
+  task :json, :collection do |t, args|
     require "rubygems"
     require "nokogiri"
     require "json"
@@ -9,7 +9,7 @@ namespace :pilot do
       return string.content.gsub(/\s+/, " ")
     end
 
-    def parse(filenames)
+    def parse(filenames, collection)
       files = []
       filenames.each { |filename|
         @doc = File.open(filename) { |f| Nokogiri::XML(f) }
@@ -17,21 +17,24 @@ namespace :pilot do
         file["title"] = filter(@doc.xpath("//tei:title", "tei" => "http://www.tei-c.org/ns/1.0")[0])
         file["author"] = filter(@doc.at_css("author"))
         file["pub"] = filter(@doc.at_css("publisher"))
-        file["date"] = filter(@doc.at_css("date"))
+        file["date"] = @doc.at_css("date").attr("when")
         file["text"] = filter(@doc.at_css("body"))
         file["filename"] = filename
+        file["link"] = "#{collection}/#{filename}".gsub("collection/", "").gsub(".xml", "")
         files << file
       }
       return files
     end
 
+    if File.directory?("_#{args[:collection]}") == false
+      Dir.mkdir "_#{args[:collection]}"
+    end
     filenames = Dir.glob("collection/*.xml")
-    File.write("_data/meta.json", { "files" => parse(filenames) }.to_json)
+    File.write("_data/meta.json", parse(filenames, args[:collection]).to_json)
   end
 
   desc "generate pages in collection folder"
   task :pages, :collection do |t, args|
-    puts args[:collection]
     filenames = Dir.glob("collection/*.xml")
     filenames.each { |filename|
       token = filename.gsub("collection/", "").gsub(".xml", "")
