@@ -150,7 +150,10 @@ function doSearch() {
   // Loop through, match, and add results
   for (var item in result) {
     var ref = result[item].ref;
-    var searchitem = '<div class="result"><h3><a href="'+store[ref].link+'?q='+query+'">'+store[ref].title+'</a></h3><p>'+store[ref].text.substring(0,300)+'...</p></div>';
+    var start = store[ref].text.indexOf(query)
+    var end = start + query.length
+    //console.log(store[ref].text.substring(test-50, test+50))
+    var searchitem = `<div class="result"><h3><a href="${store[ref].link}?q=${query}">${store[ref].title}</a></h3><p>${store[ref].text.substring(start-50, start)}<mark>${store[ref].text.substring(start, end)}</mark>${store[ref].text.substring(end, end+50)}...</p></div>`;
     resultdiv.append(searchitem);
   }
 }
