@@ -5,6 +5,22 @@ layout: base
 </div>
 <script src="{{baseurl}}/assets/js/CETEI.js"></script>
 <script>
+function marking(match){
+    return "<mark>" + match +"</mark>";
+}
+function highlight(){
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    const query = urlParams.get('q')
+    const queryReg = "\w*" + query + "\w*"
+    el = document.getElementById("TEI")
+    text = el.innerHTML
+    const re = new RegExp(queryReg, "ig")
+    console.log(re)
+    marked = text.replace(re, marking);
+    
+    el.innerHTML = marked;
+}
   function insertAfter(newNode, referenceNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
   }
@@ -14,6 +30,7 @@ layout: base
     document.getElementById("TEI").innerHTML = "";
     document.getElementById("TEI").appendChild(data);
     CETEIcean.addStyle(document, data);
+    highlight();
   });
 
     // Alternatively, use then()
@@ -22,4 +39,5 @@ layout: base
     // });
 
 </script>
-<script src="https://hypothes.is/embed.js" async></script>
+<script src="https://hypothes.is/embed.js"></script>
+<!--<script src="{{baseurl}}/assets/js/highlight.js"></script>-->
