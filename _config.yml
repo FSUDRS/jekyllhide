@@ -7,3 +7,5 @@ baseurl : "" #change to github project name when it goes up on github pages
 collections:
   odfn:
     output : true
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
