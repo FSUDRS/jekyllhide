@@ -1,0 +1,422 @@
+<?xml-model href="ODD/out/AntarcticDraft.rnc" type="application/relax-ng-compact-syntax"?><?xml-model href="ODD/out/AntarcticDraft.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Operation Deep Freeze Newsletter Volume 1 Issue 1</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Florida State University, Office of Digital Research and Scholarship</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/2.0/">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>Tallahassee, Florida</placeName>
+                  <institution>Florida State University</institution>
+                  <!-- INCLUDE (as collection) -->
+                  <collection>Robert E. Hancock Jr. Antarctic Collection</collection>
+                  <!-- INCLUDE (as iid) -->
+                  <idno type="IID">FSU_MSS_1976022_B07_F01_V1I1</idno>
+                  =
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <!-- INCLUDE (as title) -->
+                     <title>Operation Deep Freeze Newsletter Volume 1 Issue 1</title>
+                     <!-- INCLUDE (as author) -->
+                     <author>United States. Naval Support Force, Antarctica</author>
+                     <!-- INCLUDE  (as docdate; @when)-->
+                     <docDate when="1975-04-19">April 8, 1957</docDate>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="1" facs="PLACEHOLDER"/>
+         <div type="nameplate">
+            <head style="text-decoration: underline; text-align: center; text-transform: uppercase;"
+               >Operation Deep Freeze Newsletter</head>
+            <lb/>
+            <ab>
+               <num type="volume" value="2">Volume I,</num>
+               <num type="issue" value="2">Issue No. 1</num>
+               <date when="1975-04-19">April 8, 1957</date>
+            </ab>
+            <lb/>
+         </div>
+         <div type="article">
+            <p>(EDITORS NOTE: This is the first in a series of newsletters to dependents of men
+               wintering over in the Antarctic. Information in the newsletter comes principally from
+               material received by radio in Washington. Each base has been asked to file occasional
+               stories to let you know what is going on during the winter night in Antarctica.)</p>
+            <lb/>
+         </div>
+         <div type="article">
+            <div type="article" subtype="incubator">
+               <ab type="section-head">OPERATION INCUBATOR</ab>
+               <lb/>
+               <p><placeName ref="#LittleAmerica">LITTLE AMERICA</placeName> (Delayed) -- (The
+                  following story was received from Little America Station via radio messages from
+                     <persName ref="#JohnEZoller">Lt. John E. Zoller</persName>, CHC, <orgName
+                     ref="#UnitedStatesNavy">USN</orgName>, of <placeName ref="#BonitaSpringsFL"
+                     >Bonita Springs, Fla.</placeName>) On <date when="1957-02-16">Feb. 16,
+                     1957</date>, an air shipment of fresh eggs from New Zealand arrived at
+                     <placeName ref="#LittleAmerica">Little America</placeName>. While inspecting
+                  the eggs <persName ref="#RobertJAdams">Dental Officer Lt. Robert J.
+                     Adams</persName>, DC, <orgName ref="#UnitedStatesNavyReserve">USNR</orgName>,
+                  of <placeName ref="#MemphisTN">Memphis, Tenn.</placeName>, wondered if any of them
+                  were fertile. Assisted by <persName ref="#WilliamRBurns">William R.
+                     Burns</persName>, RM3, <orgName ref="#UnitedStatesNavy">USN</orgName>, of
+                     <placeName ref="#FlintMI">Flint, Mich.</placeName>, and <persName
+                     ref="#BoydDRussell">Boyd D. Russell</persName>, RM3, <orgName
+                     ref="#UnitedStatesNavy">USN</orgName>, of <placeName ref="#WacoTX">Waco,
+                     Texas</placeName>, they selected six for incubation. Even <persName
+                     ref="#RichardHBanasiak">Richard H. Banasiak</persName>, CSI, <orgName
+                     ref="#UnitedStatesNavy">USN</orgName>, of <placeName ref="#BallstonLakeNY"
+                     >Ballston Lake, N. Y.</placeName>, the cook, approved, perhaps with hope for
+                  future fresh eggs and poultry.</p>
+               <lb/>
+               <p>A Dental Incubator for scientific study of oral flora was utilized. Correct
+                  temperature to hatch eggs was unknown. We consulted a research man for a culture
+                  of a living virus within the egg. Yesterday, <persName ref="#RobertJAdams">Dr.
+                     Adams</persName> handled the eggs. He was elated at two positive embryos and
+                  two possible ones. The dental laboratory is now the crossroads of the Little
+                  America Station. Everyone wants to see the eggs. Strict visiting hours have been
+                  set up. Interest is tremendous and there is much speculation as to sex, color,
+                  breed and birthdate of the unborn chick. All hands are anticipating the day the
+                  chicken will hatch. Estimated time of arrival is <date when="1957-03-09">March
+                     9th</date>.</p>
+               <lb/>
+               <p>We believe this will be the first chicken ever hatched within the Antarctic
+                  Circle. If the chick survives, <persName ref="#RobertJAdams">Dr. Adams</persName>
+                  plans to bring the history-making bird home. He says, "Considering the 3,000 mile
+                  flight from New Zealand, extended exposure to cold and the age of the egg, this is
+                  a miracle". "We almost anticipate the chicken will hatch with earmuffs and
+                  mukluks. I am beginning to know how an expectant mother feels".</p>
+               <lb/>
+               <p>A name is needed for such a fabulous fowl. Friends in the United States are
+                  invited to submit suggestions. A progress report will follow next week.</p>
+               <lb/>
+            </div>
+            <div type="article" subtype="incubator">
+               <ab>Operation Incubator Progress Report Two (Delayed) -- Preparations continue to
+                  welcome eagerly awaited chick. A deluxe corrugated box brooder fitted with the
+                  only 25-watt bulb at Little America keeps the temperature at a constant 98
+                  degrees. The brooder has an enclosed courtyard for exercise feeding and</ab>
+               <lb/>
+               <fw>(more-next page-more)</fw>
+               <pb facs="PLACEHOLDER" n="2"/>
+               <fw type="header">-2- Operation Deep Freeze Newsletter</fw>
+               <ab>ventilating.</ab>
+               <lb/>
+               <p><persName ref="#RobertJAdams">Lt. Adams</persName> narrowly averted a chick
+                  catastrophe when the power failed for three hours. Grasping an alcohol blowtorch,
+                  he rushed to the rescue and kept the incubator at the proper temperature using
+                  candle light illumination. <persName ref="#RobertJAdams">Dr. Adams</persName> is
+                  becoming more like a mother hen every day. His face beams every time he handles
+                  eggs or discusses the chick.</p>
+               <lb/>
+               <p>A carefully concocted feed mix includes oatmeal, wheat grain, cornmeal, powdered
+                  eggs and milk. Expected chicks drinking water is spiked with terramycin and
+                  multiple vitamin complex. A crushed china dish and egg shells will provide
+                  roughage since no sand or gravel is available here.</p>
+               <lb/>
+               <p>The Little America Midwives Association is now an effective organ. They will
+                  commence egg inspection every half hour on <date when="1957-03-07">March
+                     7th</date> and continue until the blessed event occurs. <persName
+                     ref="#RobertJAdams">Dr. Adams</persName> has been designated the attending
+                  physician. Midwives are <persName ref="#WilliamRBurns">William R.
+                  Burns</persName>, <persName ref="#ThomasGehringer">Thomas Gehringer</persName>,
+                  CE3, <orgName ref="#UnitedStatesNavy">USN</orgName>, of <placeName
+                     ref="#AllentownPA">Allentown, Pa.</placeName>, and <persName
+                     ref="#BoydDRussell">Boyd D. Russell</persName>. The poor motherless chick will
+                  still need a name. Progress report three will follow next week. </p>
+               <lb/>
+            </div>
+            <div type="article" subtype="incubator">
+               <p>Operation Incubator Progress Report Three (Delayed) -- Sadness settled like soft
+                  snow over Little America <date when="1957-03-10">March 10th</date> when a tragic
+                  communique was issued from sick bay that the baby chick was stillborn.
+                  Grief-stricken obstetrician <persName ref="#RobertJAdams">Dr. Adams</persName> and
+                  midwives <persName ref="#WilliamRBurns">Burns</persName>, <persName
+                     ref="#ThomasGehringer">Gehringer</persName> and <persName ref="#BoydDRussell"
+                     >Russell</persName> were nearly prostrate. <persName ref="#RichardHBanasiak"
+                     >Banasiak</persName> the cook accepted the news stoically. "It was too much to
+                  hope for I guess, fresh eggs and young friers all winter".</p>
+               <lb/>
+               <p>In the interest of science a post-mortem autopsy was performed by <persName
+                     ref="#PatBUnger">Medical Officer Lt. Pat B. Unger</persName>, MC, <orgName
+                     ref="#UnitedStatesNavyReserve">USNR</orgName>, of <placeName ref="#MiamiFL"
+                     >Miami, Fla</placeName>. He stated, "On close investigation I found an embryo
+                  of approximately ten days well formed". "Cause of death undetermined, however,
+                  evidence of Big Eye, scourge of the Antarctic, was present". Further investigation
+                  is pending.</p>
+               <lb/>
+               <p>Hope still remains for several other eggs being carefully nurtured in the
+                  incubator. Every conceivable precaution has been taken. We are trying to duplicate
+                  exactly the care of a mother hen. Eggs are being turned daily. Midwives are
+                  practicing how to cluck like a hen. We now have volunteers to massage the eggs
+                  with bushy beards in lieu of a caress by a mother hen's feathers. Another progress
+                  report will follow next week.</p>
+            </div>
+            <div type="article" subtype="incubator">
+               <ab>Operation Incubator Progress Report Four (Delayed) -- No stone has been left
+                  unturned in our all out effort to <choice>
+                     <sic>insure</sic>
+                     <corr>ensure</corr>
+                  </choice> that the final dozen eggs left here at <placeName ref="#LittleAmerica"
+                     >Little America Station</placeName> by the Coast Guard icebreaker NORTHWIND on
+                  her last cruise into the Antarctic produce a live chick. The eggs were transferred
+                  from the NORTHWIND to <placeName ref="#LittleAmerica">Little America
+                     Station</placeName> and carefully handled between the </ab>
+               <lb/>
+               <fw>(more-next page-more)</fw>
+
+               <pb facs="PLACEHOLDER" n="3"/>
+               <fw type="header">-3- Operation Deep Freeze Newsletter</fw>
+               <ab>ship and the base by <persName ref="#RobertJAdams">Dr. Adams</persName>. All hope
+                  has now been abandoned for the former eggs.</ab>
+               <lb/>
+               <p>Tender, loving care for the eggs includes daily turning by clucking midwives with
+                  fingers covered in feathers from a pillow and daily puzzling with a curly beard by
+                     <persName ref="#WilliamFKraut">William F. Kraut</persName>, RM, <orgName
+                     ref="#UnitedStatesNavy">USN</orgName>, of <placeName ref="#BridgeportCT"
+                     >Bridgeport, Conn</placeName>. Two eggs are being nurtured by <persName
+                     ref="#HaroldEButler">Harold E. <choice>
+                        <sic>Buelter</sic>
+                        <corr>Butler</corr>
+                     </choice></persName>, HM, <orgName ref="#UnitedStatesNavy">USN</orgName>, of
+                     <placeName ref="#EastStLouisIL">East St. Louis, Ill.</placeName>, in a replica
+                  of a hen's nest constructed from cotton fixed atop an old steam iron which
+                  provides thermostat heat control and humidity. The thermostat failed recently and
+                     <persName ref="#HaroldEButler">Butler</persName> became an emergency human
+                  incubator, gently cradling the eggs under his arm. The thermostat registers the
+                  exact correct temperature. Somewhat surprised, <persName ref="#HaroldEButler"
+                     >Butler</persName> asked, "What does that make me"?</p>
+               <lb/>
+               <p>In order to determine the amount of time to keep the eggs out of the incubator,
+                  corresponding to the time a hen would be off the nest, a meticulous stop-watch
+                  study of mother hen's routine and actions has been made. For an accurate estimate,
+                  guinea pig <persName ref="#HaroldEButler">Butler</persName> attempted to duplicate
+                  the exact action of the hen. His comment was, "It sure is different chewing raw
+                  oatmeal and tilting my head back to swallow". "I'm glad to do it, but the study
+                  was not complete, for some actions which are not native to a hen I cannot
+                  duplicate". Progress report five will follow next week.</p>
+               <lb/>
+            </div>
+            <div type="article" subtype="incubator">
+               <p>Operation Incubator Progress Report Five (Delayed) -- This is "the long Wait". Day
+                  after day the eggs look the same. What goes on inside the eggs is an unseen vital
+                  matter. All personnel here are hoping there will be a chick for Easter.</p>
+               <lb/>
+               <p>Today <persName ref="#RobertJAdams">Dr. Adams</persName> himself handled and
+                  turned the eggs gently. He reported some change since handling them a week ago.
+                  "Should know for sure if we will have a chick in two weeks", he said.</p>
+               <lb/>
+               <p>Several days ago <persName ref="#HaroldEButler">Butler</persName> discussed the
+                  project via Ham Phone Patch with his father, <persName ref="#RobertFButler">Robert
+                     F. Butler</persName>, an ex-farmer of <placeName ref="#EastStLouisIL">East St.
+                     Louis, Ill.</placeName>, through the facilities of Ham Radio WOOBJ, <persName
+                     ref="#PrestonARichardson">Preston A. Richardson</persName> of <placeName
+                     ref="LadueMO">Ladue, Mo</placeName>. <persName ref="#RobertFButler">Mr.
+                     Butler</persName> verified the correct temperature, <choice>
+                     <sic>freqnency</sic>
+                     <corr>frequency</corr>
+                  </choice> of turning the eggs and the incubator period but he warned against
+                  expecting too much because of the long exposure to cold prior to incubation and
+                  the unlikely fact that fertile eggs <choice>
+                     <sic>wuuld</sic>
+                     <corr>would</corr>
+                  </choice> be found in commercial stock for consumption.</p>
+               <lb/>
+               <ab>Nevertheless, all hands at <placeName ref="#LittleAmerica">Little
+                     America</placeName> are doing their utmost in their spare time for
+                  success.</ab>
+               <lb/>
+               <ab>(EDITORS NOTE: The Operation Deep Freeze Newsletter will carry the results of
+                  Operation Incubator in its next edition. Final results of the Operation had not
+                  been transmitted from Little America at mailing time.)</ab>
+               <lb/>
+            </div>
+         </div>
+         <fw>(more-next page-more)</fw>
+         <pb facs="PLACEHOLDER" n="4"/>
+         <fw type="header">-4- Operation Deep Freeze Newsletter</fw>
+         <div type="article" subtype="SouthPoleStation">
+            <ab type="section-head">NATIONAL GIN RUMMY TOURNAMENT</ab>
+            <lb/>
+            <p><placeName ref="#SouthPoleStation">SOUTH POLE</placeName> (Delayed) -- The Last
+               Vegas, Nevada, Charities Inc., (National Heart Fund, March of Dimes, Accredited
+               Catholic, Protestant and Jewish Charities) sponsored a National Gin Rummy Tournament
+               March 7, 8, 9 and 10, using Oswald Jacoby Gin Rummy Rules, From the ranks of
+               wintering groups in Antarctica, <placeName ref="#SouthPoleStation">South
+                  Pole</placeName> stationed <persName ref="#ChesterWSegers">Chester W.
+                  Segers</persName>, CS1, <orgName ref="#UnitedStatesNavy">USN</orgName>, was
+               selected as a candidate for the tournament.</p>
+            <lb/>
+            <p><persName ref="#WillieMDickey">Capt. W. M. Dickey</persName>, <orgName
+                  ref="#UnitedStatesNavy">USN</orgName>, Commander Naval Support Units, Antarctica,
+               stationed at <placeName ref="#LittleAmerica">Little America</placeName>, offered a
+               kingsize Antarctic iceberg as prize in the charity tournament. The tabular berg is
+               brand new, having just broken off from the Ross ice barrier. It is approximately 25
+               miles long, 10 miles wide and stands about 100 feet above water. The iceberg contains
+               an estimated 63 billion tons of ice. We regret that we are unable to deliver the
+               berg, although there is no shortage of volunteers to try. If the winner desires to
+               pick her up we can guarantee utmost cooperation, especially if the winner is an
+               attractive young lady.</p>
+            <lb/>
+            <p><placeName ref="#SouthPoleStation">South Pole Station</placeName> representative
+                  <persName ref="#ChesterWSegers">Segers</persName> was leading <persName
+                  ref="#RogerBeck">Roger Beck</persName> of the Los Angeles Mirror in the Gin Rummy
+               Tournament when ham radio transmission difficulty forced cancellation of the match.
+               Once again the <orgName ref="#UnitedStatesNavy">Navy's</orgName> reputation to do
+               anything, anytime, anywhere was upheld, <persName ref="#WillieMDickey">Capt.
+                  Dickey</persName> offered <persName ref="#RogerBeck">Mr. Beck</persName>
+               consolation prize of a miniature kingsize iceberg approximately 100 feet above water.
+               The berg contained an estimated 80 million tons of the finest grade of Antarctic ice.
+               It is located in the Bay of Whales near <placeName ref="#LittleAmerica">Little
+                  America Three</placeName>. We regret we are unable to deliver the berg. However,
+               we understand any true Southern Californian can do anything so delivery should be no
+               problem for <persName ref="#RogerBeck">Mr. Beck</persName>.</p>
+            <lb/>
+         </div>
+         <div type="article" subtype="SouthPoleStation">
+            <ab type="section-head"><placeName ref="#SouthPoleStation">SOUTH POLE
+                  STATION</placeName> IN WINTER NIGHT</ab>
+            <lb/>
+            <p><placeName ref="#SouthPoleStation">SOUTH POLE</placeName> (Delayed) -- In a brief
+               ceremony <date when="1957-03-24">March 24th</date> the South Pole Station flag was
+               lowered, heralding the end of the summer and the beginning of the Antarctic winter
+               night. The flag had previously been at half mast in honor of the memory of <persName
+                  ref="#RichardEByrd">RADM Richard E. Byrd</persName>. Six months will elapse before
+               the eighteen men here at the South Pole will again see the <choice>
+                  <sic>suns</sic>
+                  <corr>sun's</corr>
+               </choice> rays. Prior to the flag lowering ceremony which was observed in minus 80
+               degree weather with a chilling 15 knot breeze, a final days outside work by all hands
+               completed all major tasks in securing the base for winter. Following a two day
+               holiday, a well deserved rest for all, the major emphasis will shift from readying
+               the base for the winter to constructing and tunneling, including the digging of a
+               1,000 foot tunnel for geomagnetic and seismic programs to be carried out by the nine
+               IGY personnel under the direction of station scientific leader <persName
+                  ref="#PaulSiple">Dr. Paul Siple</persName>. The nine Navy men here will
+               complete</p>
+            <lb/>
+            <fw>(more-next page-more)</fw>
+
+            <pb facs="PLACEHOLDER" n="5"/>
+            <fw type="header">-5- Operation Deep Freeze Newsletter</fw>
+            <ab>the finishing touches necessary to "batten all hatches" against drifting snow and
+               winter temperatures expected to reach a minimum of approximately minus 120 degrees
+               and will maintain and operate the base in support of the IGY program.</ab>
+            <lb/>
+            <p>Though it will undoubtedly be a long and cold winter, it should also be a busy,
+               pleasant and rewarding one for the men of the <placeName ref="#SouthPoleStation"
+                  >South Pole Station</placeName> and at the present it is one that is being met
+               with top morale and high anticipation.</p>
+            <lb/>
+         </div>
+         <div type="article" subtype="NAFMcMurdo">
+            <ab type="section-head">LATE <persName ref="#RichardEByrd">RADM RICHARD E.
+                  BYRD</persName> HONORED IN ANTARCTICA</ab>
+            <lb/>
+            <p><placeName ref="#NAFMcMurdo">NAVAL AIR FACILITY MCMURDO SOUND</placeName> (Delayed)
+               -- On <date when="1957-03-17">Sunday March 17, 1957,</date> U. S. Navy personnel at
+                  <placeName ref="#NAFMcMurdo">NAF McMurdo</placeName> honored and paid tribute to
+               the memory of a great American, a distinguished Naval officer and world renowned
+               explorer, <persName ref="#RichardEByrd">RADM Richard E. Byrd</persName>, in the
+               beautiful and picturesque Chapel in the Snow situated on a hill at McMurdo Sound.</p>
+            <lb/>
+            <ab>General Memorial Services were conducted and a Catholic Mass was offered in memory
+               of the men who during his life made history on this continent as he courageously and
+               untiringly uncovered many of its secrets.</ab>
+            <lb/>
+            <p>At the General Memorial Service, <persName ref="#RobertHWakeman">Robert H.
+                  Wakeman</persName>, RM2, <orgName ref="#UnitedStatesNavy">USN</orgName>, of
+                  <placeName ref="#WaltonNY">Walton, N.Y.</placeName>, lead the congregation in
+               prayer; <persName ref="#JohnWRobertson">John W. Robertson</persName>, SW1, <orgName
+                  ref="#UnitedStatesNavy">USN</orgName>, of <placeName ref="#MitchellSD">Mitchell,
+                  S. D.</placeName>, read the scriptures and <persName ref="#DonaldCHauck">Lt.
+                  Donald C. Hauck</persName>, DC, <orgName ref="#UnitedStatesNavy">USN</orgName>,
+               base Dental Officer of <placeName ref="#KandiyottMN">Kandiyott, Minn.</placeName>,
+               played the organ and lead the singing. <persName ref="#LeonSDarkowski">Lt. Leon S.
+                  Darkowski</persName>, CHC, <orgName ref="#UnitedStatesNavy">USN</orgName>, base
+               Chaplain, reviewed the life of <persName ref="#RichardEByrd">RADM Byrd</persName> in
+               a eulogy.</p>
+            <lb/>
+         </div>
+         <div type="article">
+            <ab type="section-head">ANTARCTIC NOTES</ab>
+            <p><placeName ref="#LittleAmerica">LITTLE AMERICA</placeName> (Delayed) -- The
+                  <placeName ref="#LittleAmerica">Little America Station</placeName> plans to
+               construct a small worship chapel using volunteer labor. They want to dedicate the
+               chapel <date when="1957-04-21">Easter Sunday, April 21st</date>. All hands believe a
+               fitting dedicate would be "Richard E. Byrd Memorial Chapel".</p>
+            <lb/>
+            <p><placeName ref="#EllsworthStation">WEDDELL SEA</placeName> (Delayed) -- <persName
+                  ref="#FinnRonne">Capt. Finn Ronne</persName>, Officer-in-Charge of the <placeName
+                  ref="#EllsworthStation">Ellsworth Station in the Weddell Sea</placeName> says,
+               "all hands are well and expect to have this Station 100 percent operative sometime
+               during the first of April.</p>
+            <lb/>
+            <fw>(more-next page-more)</fw>
+            <pb facs="PLACEHOLDER" n="6"/>
+            <fw type="header">-6- Operation Deep Freeze Newsletter</fw>
+            <p><placeName ref="#LittleAmerica">LITTLE AMERICA</placeName> (Delayed) -- Health and
+               morale is reported high at all seven of the United States Antarctic bases according
+               to a report from <persName ref="#WillieFDickey">Capt. W. F. Dickey</persName>,
+                  <orgName ref="#UnitedStatesNavy">USN</orgName>, Commander Naval Support Units,
+               Antarctica.</p>
+            <lb/>
+         </div>
+         <pb facs="PLACEHOLDER" n="7"/>
+         <div type="editorialInfo">
+            <ab>
+               <address>
+                  <addrLine>Operation Deep Freeze Newsletter</addrLine>
+                  <addrLine>
+                     <num type="volume" value="1">Vol. 1</num>, <num type="issue" value="2">Issue
+                        No. 1</num>, <date when="1957-04-08">8 April 1957</date>
+                  </addrLine>
+                  <addrLine> Phone Liberty 5-6700, Ext. 66675</addrLine>
+               </address>
+            </ab>
+            <lb/>
+            <lb/>
+            <lb/>
+            <ab>
+               <address>
+                  <addrLine>Duplicated and distributed by:</addrLine>
+                  <addrLine>Commander</addrLine>
+                  <lb/>
+                  <addrLine>Naval Construction Battalions, Atlantic</addrLine>
+                  <lb/>
+                  <addrLine>Construction Battalion Center</addrLine>
+                  <lb/>
+                  <addrLine><placeName ref="#DavisvilleRI">Davisville, Rhode
+                     Island</placeName></addrLine>
+               </address>
+            </ab>
+         </div>
+         <div type="editorialInfo">
+            <ab>
+               <address>
+                  <addrLine>Commander, U.S. Naval Support</addrLine>
+                  <lb/>
+                  <addrLine>Force, Antarctica, Building "D",</addrLine>
+                  <lb/>
+                  <addrLine>Sixth &amp; Independence SW</addrLine>
+                  <lb/>
+                  <addrLine>Washington 25, D.C.</addrLine>
+               </address>
+            </ab>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,554 @@
+<?xml-model href="ODD/out/AntarcticDraft.rnc" type="application/relax-ng-compact-syntax"?><?xml-model href="ODD/out/AntarcticDraft.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Operation Deep Freeze Newsletter Volume 2 Issue 2</title>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Florida State University, Office of Digital Research and Scholarship</publisher>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/2.0/">Attribution 2.0 Generic (CC BY 2.0)</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <placeName>Tallahassee, Florida</placeName>
+                  <institution>Florida State University</institution>
+                  <!-- INCLUDE (as collection) -->
+                  <collection>Robert E. Hancock Jr. Antarctic Collection</collection>
+                  <!-- INCLUDE (as iid) -->
+                  <idno type="IID">FSU_MSS_1976022_B07_F01_V2I2</idno>
+                  =
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <!-- INCLUDE (as title) -->
+                     <title>Operation Deep Freeze Newsletter Volume 2 Issue 2</title>
+                     <!-- INCLUDE (as author) -->
+                     <author>United States. Naval Support Force, Antarctica</author>
+                     <!-- INCLUDE  (as docdate; @when)-->
+                     <docDate when="1957-04-19">April 19, 1957</docDate>
+                  </msItem>
+               </msContents>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <pb n="1" facs="PLACEHOLDER"/>
+         <div type="nameplate">
+            <head style="text-decoration: underline; text-align: center; text-transform: uppercase;">Operation Deep Freeze Newsletter</head>
+            <lb/>
+            <ab>
+               <num type="volume" value="2">Volume II, </num>
+                    <num type="issue" value="2"> Issue No.
+                  2</num>
+               <date when="1975-04-19">April 19,1957</date>
+            </ab>
+            <lb/>
+         </div>
+         <div type="article" subtype="ByrdStation">
+            <p>
+                    <placeName ref="#ByrdStation">BYRD STATION</placeName> -- At this Antarctic station
+                  <orgName ref="#InternationalGeophysicalYear">IGY</orgName> scientists were
+               astonished to find ice in the area reaching a depth of 7,800 to 9,750 feet. The
+               scientists believe all this ice rests on land but it is not an established fact as
+               yet.</p>
+            <lb/>
+         </div>
+         <div type="article" subtype="NAFMcMurdo">
+            <p>NAF MCMURDO -- During one of many reconnaissance flights in the vicinity of this
+               airbase, <persName ref="#SAAntos">Major S. A. Antos</persName>, <orgName ref="#UnitedStatesMarineCorps">USMC</orgName> of <placeName ref="#BuffaloNY">Buffalo, N.Y.</placeName>, discovered what may be an Antarctic phenomenon.
+               Situated near Marble Point and the Wilson-Piedmont Glacier, he saw a huge ice tunnel
+               more than a mile long. He described it as, "A huge ice tube that looked as if a draw
+               were frozen over the top of a cavernous hollow formed by melted glacier ice."</p>
+         </div>
+         <lb/>
+         <div type="article" subtype="SouthPole">
+            <p>SOUTH POLE -- The lowest temperature observed thus far at the South Pole is 89
+               degrees below zero, recorded on April 2. This temperature exceeded the lowest ever
+               recorded in North America -81 degrees observed at Snag, Yukon Territory, Canada, in
+               Feb, 1947. It is one degree above the all-time world's record of 90 degrees below
+               zero set in northeastern Siberia in Feb. 1933. As late March and early April roughly
+               corresponds to September in the Northern Hemisphere, temperatures are expected to
+               drop to 120 degrees below zero as mid-winter approaches.</p>
+         </div>
+         <lb/>
+         <div type="article" subtype="WilkesStation">
+            <p>
+                    <placeName ref="#WilkesStation">WILKES STATION</placeName> -- The flash of an arm,
+               the roar of a cannon, and 1,800 square feet of net took flight in quest of the skua
+               gull, a bird of Antarctica. this was immediately followed by the rapid crunching
+               sound of men running over hard crusted snow. Such was the scene recently witnessed at
+               this station in Vincennes Bay. Perhaps all but one of the persons who witnessed this
+               spectacle had never seen anything just like it before. The man whose flashing arm
+               gave the signal to fire the salvo was <persName ref="#CarlREklund">Carl
+                  Eklund</persName>, scientific leader at this base.</p>
+            <lb/>
+            <p>The spectators and participants in this operation saw fire and smoke bellow from
+               three cannon muzzles. The muzzles were protruding about 12 inches out of the snow and
+               aimed at 20 degrees elevation. But the thing that really amazed the onlookers was the
+               sight of the flying net, for through the smoke of the blast the net could be seen
+               being carried by the projectiles. In a low arching flight the net carried up and over
+               and landed enveloping the gluttonous skuas <choice>
+                  <sic>feating</sic>
+                  <corr>feasting</corr>
+               </choice> on the remains of dead seals.</p>
+            <lb/>
+            <p>The setting off of the net resulted in a spontaneous rush of viewers to the scene of
+               capture. First to reach the area was <persName ref="#RudolfAHonkala">Rudolf A.
+                  Honkala</persName>. <persName ref="#RudolfAHonkala">Rudy</persName> is a U. S.
+               Weather Bureau meteorologist stationed here as an assistant to <persName ref="#CarlREklund">Mr. Eklund</persName>. Right on his heels was <persName ref="#SheldonWGrinnell">Lt. Sheldon W. Grinnell</persName>, <orgName ref="#MedicalCorps">MC</orgName>, <orgName ref="#UnitedStatesNavalReserves">USNR</orgName>, of <placeName ref="#CarbondaleIL">Carbondale, Ill</placeName>.
+               With a great deal of zeal, <persName ref="#RudolfAHonkala">Honkala</persName> piled
+               onto the net and attempted to grasp one of the trapped birds. His face soon had a
+               look of perplexity and he began to wonder if this flurry of wings and claws was going
+               to evade his grasp. By then he knew that this was no homing pigeon he was dealing
+               with. But the same type of determination that brought him from his home in <placeName ref="#SalisburyNH">Salsibury, N. H.</placeName>, to the Antarctic, he managed to
+               capture the bird.</p>
+
+            <pb facs="PLACEHOLDER" n="2"/>
+
+            <p>The photographer on the job was <persName ref="#PaulFNoonan">Paul F.
+                  Noonan</persName>, photographer first class, of <placeName ref="#BostonMA">Boston,
+                  Mass.</placeName> With one continuous movement, <persName ref="#PaulFNoonan">Noonan</persName> planted his camera tripod and shot a scene of <persName ref="#SydneyEGreen">Sydney E. Green</persName>, construction driver 3/c, of Rt.1,
+                  <placeName ref="#ColbertWA">Colbert, Wash.</placeName>, brining a captured skua
+               gull to <persName ref="#CarlREklund">Mr. Eklund</persName> so the bird could be
+               banded. <persName ref="#CarlREklund">Mr. Eklund</persName>, who lives in <placeName ref="#AtlantaGA">Atlanta, Ga.</placeName>, is carrying on this operation in
+               conjunction with his biological research in the Antarctic.</p>
+            <lb/>
+            <p>The creatures of this land, like the land itself, are quite mysterious to the outside
+               world. To study them and their habitat is part of the <orgName ref="#InternationalGeophysicalYear">IGY</orgName> program here. <persName ref="#SheldonWGrinnell">Lt. Grinnell</persName>, assisted by <persName ref="#GarthHStonehocker">Garth H. Stonehocker</persName>, chief ionospheric
+               physicist at this station, put the birds in a cardboard carton so that they could be
+               weighed. The gloves and heavy clothing worn by the men serve a twofold purpose. They
+               not only protect them from the cold but also from the flashing claws and beaks of the
+               birds.</p>
+            <lb/>
+            <p>One of the last persons to reach the capture area was <persName ref="#RichardBerkley">Richard Berkley</persName> of <placeName ref="W#WinterParkFL">Winter Park,
+                  Fla</placeName>. <persName ref="#RichardBerkley">Berkley</persName>, a
+               geomagnetism specialist, manned the detonator which fired the salvo. After all the
+               birds were weighted and banded, <persName ref="#CarlREklund">Eklund</persName>
+               released the birds. The bringing of the cannons and net from the U.S. had proven its
+               merit. This shot, the first of its kind ever made in Antarctica, had netted 13 birds.
+               With the knowledge gained from this capture there will be more abundant catches in
+               the future.</p>
+            <lb/>
+         </div>
+         <div type="article" subtype="EllsworthStation">
+            <p>
+                    <placeName ref="#EllsworthStation">ELLSWORTH STATION</placeName> -- A member of this
+               station's wintering-over party says Navy cook <persName ref="#EdwardHDavis">Edward H.
+                  Davis</persName> of <placeName ref="#ClintonIA">Clinton, Iowa</placeName>, does
+               more for morale than all the other base personnel put together. <persName ref="#EdwardHDavis">Davis</persName> rises at 4 a.m. to prepare early breakfast
+               and his work isn't completed until 7:30 p.m., after the evening meal. He performs his
+               work six days a week with a half day off on Sundays. Due to the heavy work load,
+               vigorous atmosphere and tasty cooking Davis turns out, large amounts of food are
+               being consumed at <placeName ref="#EllesworthStation">Ellsworth</placeName> and the
+               men are continually gaining weight.</p>
+            <lb/>
+            <p>
+                    <persName ref="#AtlesFLewis">Atles F. Lewis</persName>, aviation metalsmith 1/c, of
+                  <placeName ref="#TroyNC">Troy, N.C.</placeName>, has gained 25 pounds in five
+               weeks. <persName ref="#EdwardHDavis">Davis</persName> estimates the men are eating
+               one and a half times their normal amount of food. They are eating mostly proteins of
+               which there consumption is twice that of a Stateside naval base for the same number
+               of personnel. In the way of meats, <persName ref="#EdwardHDavis">Davis</persName> is
+               serving mostly veal and pork now because it loses its flavor fastest. He is saving
+               beef for last. There is enough veal, pork, chicken and liver for two more months.
+               Then the fresh meat rations will be supplemented with canned foods. Carbohydrates are
+               being consumed one and a half times above normal.</p>
+            <lb/>
+            <p>Due to the bitter cold there are lots of coffee breaks and coffee consumption has
+               climbed to four times normal. <persName ref="#EdwardHDavis">Davis</persName> believes
+               that with the <choice>
+                  <sic>comfartable</sic>
+                  <corr>comfortable</corr>
+               </choice> prefabricated buildings, recreation hall and nightly movies, this is a soft
+               life compared with previous Antarctic expeditions. But he maintains he would never
+               winter over again and in his own words, "Nothing will look better to me than
+               home."</p>
+            <lb/>
+         </div>
+         <div type="article" subtype="WilkesStation">
+            <p>
+                    <placeName ref="#WilkesStation">WILKES STATION</placeName> -- During March in the
+               Vincennes Bay area, bay waters were still, free of packice. Scientists had begun
+               their studies with comparatively little handicap due to the efficient work of
+                  <placeName ref="#WilkesStation">Wilkes</placeName> wintering-over <orgName ref="#UnitedStatesNavalConstructionBattalions">Seabees</orgName>. Glacial geology
+               and higher sea levels are being investigated on the Windmill Island group of which
+                  <placeName ref="#WilkesStation">Wilkes Station</placeName> is a part. Heavy
+               drifting and 10 feet of snow now cover the station.</p>
+            <lb/>
+
+            <fw>
+                    <num type="page" value="2">2</num>
+                </fw>
+            <pb facs="PLACEHOLDER" n="3"/>
+         </div>
+         <div type="article" subtype="LittleAmerica">
+            <p>
+                    <placeName ref="#LittleAmerica">LITTLE AMERICA</placeName> -- Jack Frost is working
+               overtime this year at <placeName ref="#LittleAmerica">Little America</placeName>. The
+               theme song here is "Baby It's Cold Outside." Average temperature during last month
+               was 14 degrees colder than last year. Winter is not yet here but it sure feels like
+               it. April is also off to a good start. Temperature for the first part of April
+               reached 51 degrees below zero.</p>
+            <lb/>
+            <p>Personnel are carefully instructed on how to work in such cold weather. Weather is
+               announced at reveille, enabling personnel to dress accordingly. When Working
+               together, they watch each other for signs of frostbite and other cold weather injury.
+               The men welcome coffee breaks which relive them from extended exposure.</p>
+            <lb/>
+            <p>An appendectomy was successfully performed last week by <persName ref="#PatBUnger">Lt. Pat B. Unger</persName>, <orgName ref="#MedicalCorps">MC</orgName>, <orgName ref="#UnitedStatesNavalReserves">USNR</orgName>, of <placeName ref="#MiamiFL">Miami, Fla.</placeName>, on <persName ref="#AllenEPracht">Allen E.
+                  Pracht</persName>, builder 3/c, of <placeName ref="#PittsburghPA">Pittsburgh,
+                  Pa.</placeName> Assisting <persName ref="#PatBUnger">Dr. Unger</persName> were
+                  <persName ref="#RobertJAdams">Lt. (jg) Robert J. Adams</persName>, <orgName ref="#DamageControlman">DC</orgName>, <orgName ref="#UnitedStatesNavalReserves">USNR</orgName>, of <placeName ref="#MemphisTN">Memphis, Tenn.</placeName>,
+                  <persName ref="#FredAMilan">Fred A. Milan,</persName> physiologist of <placeName ref="#AndoverMA">Andover, Mass.</placeName>, Korean combat veteran <persName ref="#HaroldEButler">Harold E. Butler</persName>, hospitalman 3/c, of <placeName ref="#GigHarborWA">Gig Harbor, Wash.</placeName>
+                </p>
+            <lb/>
+            <p>
+                    <persName ref="#AllenEPracht">Pracht</persName> is reported to be convalescing well
+               after the operation. Flashing his usual smile, he said, "It's a relief to have the
+               pain gone. I hope to be back on the job soon."</p>
+            <lb/>
+            <p>The first session of the Little America Senate convened recently. This group, part of
+               a special services organization, consists of nine senators elected by and from
+               station personnel. The purpose of the senate is to afford all hands an opportunity
+               through elected representatives to express to the command any comments or suggestions
+               about various aspects of the community life. The group also generates plausible ideas
+               and plans with special attention towards recreation and education.</p>
+            <lb/>
+            <p>Senators are: <persName ref="#HughFBennet">Hugh F. Bennett</persName>, seismologist
+               of <placeName ref="#ChipppewaFallsWI">Chippewa Falls, Wis.</placeName>; <persName ref="#RichardLChappell">Richard L. Chappell</persName>, science aide (<orgName ref="#EagleScouts">Eagle Scout</orgName>) of <placeName ref="#EggertsvilleNY">Eggertsville, N.Y.</placeName>; <persName ref="#SLCoyne">S. L. Coyne</persName>,
+               construction driver 3/c, <placeName ref="#PiquaOH">Piqua, Ohio</placeName>; <persName ref="#KAElliot">K. A. Elliott</persName>, construction driver 1/c, of <placeName ref="#LancasterPA">Lancaster, Pa.</placeName>; <persName ref="#CWJenkins">C. W.
+                  Jenkins</persName>, hospitalman 3/c, of <placeName ref="#GigHarborWA">Gig Harbor,
+                  Wash.</placeName>; <persName ref="#WFKraut">W. F. Kraut</persName>, radioman 1/c,
+               of <placeName ref="#BridgeportCT">Bridgeport, Conn.</placeName>; <persName ref="#AllenEPracht">A. E. Pracht</persName>, builder 3/c, of <placeName ref="#PittsburghPA">Pittsburgh, Pa.</placeName>; <persName ref="#GHStewart">G. H.
+                  Stewart</persName>, aviation machinist's mate 2/c, of <placeName ref="#MinneapolisMN">Minneapolis, Minn.</placeName>; and <persName ref="#EarlTracy">Earl Tracy</persName>, aviation electrician's mate 1/c, of
+                  <placeName ref="#GranadaHillsCA">Granada Hills, Calif.</placeName>
+                </p>
+            <lb/>
+            <p>Patterned after the federal government of big America, the Little America special
+               services also includes a cabinet, supreme court and president. The cabinet is
+               composed of five appointed persons headed by <persName ref="#RichardEHancock">Special
+                  Services Officer LCDR R. E. Hancock</persName>, <orgName ref="#SupplyCorps">SC</orgName>, <orgName ref="#UnitedStatesNavy">USN</orgName>, of <placeName ref="#AlexandriaVA">Alexandria, Va.</placeName> Others are <persName ref="#JohnEZoller">Chaplain Zoller</persName>, Medical Officer <persName ref="#PatBUnger">Lt. Unger</persName>, and VX-6 member Lt. <persName ref="#RobertGAnderson">R. G. Anderson</persName> of <placeName ref="#AlamedaCA">Alameda, Calif</placeName>. The Supreme Court has three justices: Chief Justice
+               is <persName ref="#HJOrndorff">LCDR H. J. Orndorff</persName>, <orgName ref="UnitedStatesNavalReserve">USNR</orgName>, of <placeName ref="#NutterfortWV">Nutterfort, W. Va.</placeName>, Officer in Charge of Little America; <persName ref="#JEWaldron">LCDR J. E. Waldron Jr.</persName>, <orgName ref="#UnitedStatesNavalReserve">USNR</orgName>, of <placeName ref="#NewOrleansLA">New Orleans, La.</placeName>, Officer in Charge of VX-6; and <persName ref="#APGrary">A. P. Grary</persName>, Deputy Chief Scientist, of <placeName ref="#OakfordPA">Oakford, Pa</placeName>. Purpose of the supreme court is to
+               provide counsel of command heads in matters pertaining to the general good and order
+               and to approve or disapprove recommendations and initiate action corresponding that
+               which the commanding officer would make.</p>
+            <lb/>
+            <p>The President is <persName ref="#WillieMDickey">Capt. W. M. Dickey</persName>,
+                  <orgName ref="#UnitedStatesNavy">USN</orgName>, of <placeName ref="#RuskTX">Rusk,
+                  Tex.</placeName>, Commander Naval Support Units, Antarctica. He reviews all acts
+               of the lower bodies. In a small way, with certain modifications, special services
+               operates as a miniature American government. It stimulates interest and provides good
+               training in democracy.</p>
+            <lb/>
+            <fw>
+                    <num type="page" value="3">3</num>
+                </fw>
+            <pb facs="PLACEHOLDER" n="4"/>
+         </div>
+         <div type="article" subtype="AllBases">
+            <p>ALL BASES -- <persName ref="#WillieMDickey">Capt. Dickey</persName> reports from his
+               Little America headquarters that radio reports from all U. S. Antarctic bases states
+               health and morale excellent. In a request from the stations for items for ships to
+               bring down on Deep Freeze III, ping pong balls and sun lamps are big items.</p>
+            <lb/>
+         </div>
+         <div type="article" subtype="LittleAmerica">
+            <ab>
+                    <placeName ref="#LittleAmerica">LITTLE AMERICA</placeName> -- The chapel-library at
+               this station, to be called the "Richard E. Byrd Memorial Chapel," has been erected
+               and awaits only the arrival of Easter to be officially dedicated.</ab>
+            <lb/>
+         </div>
+         <div type="article" subtype="EllsworthStation">
+            <p>
+                    <placeName ref="#EllsworthStation">ELLSWORTH STATION</placeName> -- The
+               responsibility of maintenance and repair of heavy duty D-4 and D-8 tractors here
+               rests largely on one man, <persName ref="#WalterLDavis">Walter L. Davis</persName>,
+               construction mechanic 1/c, of <placeName ref="#BentonCityMO">Benton City,
+                  Mo</placeName>. He is the only Navy mechanic here and has six Caterpillar tractors
+               and six "weasels" to keep in operation. One of his major jobs on the vehicles so far
+               has been getting them started in the 36 degree below zero weather.</p>
+            <lb/>
+            <p>The 12 year veteran of Okinawa, Europe and Africa has served as a heavy equipment
+               mechanic and is especially suited for the vigorous Antarctic extremes, having served
+               in Greenland. A typical day for <persName ref="#WalterLDavis">Davis</persName>
+               consists of supplying three buildings with snow which is melted into water. He
+               accomplishes this by scooping up the snow with a D-3 tractor and dumping it on the
+               roofs of the buildings. Then if the vehicle is in repair he tackles that. If not he
+               continues on construction and maintenance of the base. He also maintains and repairs
+               the diesel electric generators that supply the base with electricity. <persName ref="#WalterLDavis">Davis</persName> is looking forward to the end of the long
+               Antarctic winter night and the return to the United States. He would like a tour of
+               recruiting duty. In his own words, "one year down here is long enough."</p>
+            <lb/>
+         </div>
+         <div type="article" subtype="ByrdStation">
+            <p>
+                    <placeName ref="#ByrdStation">BYRD STATION</placeName> -- Time goes fast in the
+               Antarctic and days are hard to keep up with. Sometimes so much that men even forget
+               their own birthdays, as in the case of <persName ref="#JackRFenrod">"Uncle" Jack R.
+                  Fenrod</persName>, builder 3/c, of <placeName ref="#WetunkaOK">Wetunka,
+                  Okla</placeName>. He entered the mess hall for lunch <date when="1957-04-04">April
+                  4</date> after doing some extra work that happened to come up and made him a few
+               minutes late. Station cook, <persName ref="#RobertDMarsh">Robert D. Marsh</persName>,
+               commissaryman 1/c, of <placeName ref="#NicktownPA">Nicktown, PA.</placeName>, had
+               known about his birthday for some time and had been making arrangements which
+               included a large devil's food cake with white icing and chocolate lettering. One
+               candle was set atop an empty medicine bottle in the center of the table and singing
+               by all hands helped create the proper atmosphere for the occasion.</p>
+            <lb/>
+            <p>
+                    <persName ref="#GordenAbbey">Gorden Abbey</persName>, radioman 1/c, of <placeName ref="#UnionGapWA">Union Gap, Wash.</placeName>, <persName ref="#WELowe">W. E.
+                  Lowe</persName>, radioman 1/c, of <placeName ref="#DecaturIL">Decatur,
+                  Ill.</placeName>, and <persName ref="#WDWelch">W. D. Welch</persName>, electronics
+               technician 3/c, of <placeName ref="#AtlantaGA">Atlanta, Ga.</placeName>, worked most
+               of the week in temperatures as low as 68 degrees below zero to construct <persName ref="#WDWelch">Welch's</persName> pet project a rhombic antenna for our amateur
+               radio. The antenna was completed and is now receiving some very good signal reports
+               from Stateside amateurs.</p>
+            <lb/>
+            <p>The Byrd Station Choir, composed of <persName ref="#CEReynolds">C. E.
+                  Reynolds</persName>, construction electrician 1/c, of <placeName ref="#wilmingtonDE">Wilmington, Del.</placeName>; <persName ref="#DDBlubaugh">D.
+                  D. Blubaugh</persName>, construction mechanic 3/c, of <placeName ref="#UrsinaPA">Ursina, Pa.</placeName>; <persName ref="#JRPenrod">J. R. Penrod</persName>,
+               builder 3/c, of <placeName ref="#WetumkaOK">Wetumka, Okla.</placeName>; <persName ref="#RobertDMarsh">R. D. Marsh,</persName> commissaryman 1/c of <placeName ref="#NicktownPA">Nicktown, Pa.</placeName>; and <persName ref="#WesMorris">Wes
+                  Morris</persName>, <orgName ref="#InternationalGeophysicalYear">IGY</orgName>
+               meteorologist, of <placeName ref="#SaultSte.MarieMI">Sault Ste. Marie,
+                  Mich.</placeName>, at the piano, made its first public appearance at Sunday
+               religious services and proved a great success.</p>
+            <lb/>
+            <ab>Quite a few auroral displays have been seen here lately, but the most significant
+               one was sighted by <persName ref="#EdwardAAlf">Edward A. Alf</persName>,
+               Meteorologist, of <placeName ref="#AppleValleyCA">Apple Valley, Calif.</placeName>,
+               while making late evening weather observations. Everyone was awed by its</ab>
+            <lb/>
+            <fw>
+                    <num type="page" value="4">4</num>
+                </fw>
+            <pb facs="PLACEHOLDER" n="5"/>
+            <ab>ghostly beauty. It looked light green to very pale red, and ran roughly north and
+               south, making slow weaving motions.</ab>
+            <lb/>
+         </div>
+         <div type="article" subtype="LittleAmerica">
+            <ab>LITTLE AMERICA -- "Operation Incubator" now belongs to the ages.</ab>
+            <lb/>
+            <p>
+                    <persName ref="#RobertJAdams">Lt. (jg) Robert J. Adams</persName>, <orgName ref="#DamageControlman">DC</orgName>, <orgName ref="#UnitedStatesNavalReserve">USNR</orgName>, of <placeName ref="#MemphisTN">Memphis, Tenn.</placeName>, has
+               announced that all hope for the six New Zealand eggs selected for incubation has been
+               abandoned. Final <choice>
+                  <sic>cnadling</sic>
+                  <corr>candling</corr>
+               </choice> revealed no growth since last week.</p>
+            <lb/>
+            <p>The project provided fun during leisure time and an interesting diversion from duty.
+                  <persName ref="#RobertJAdams">Dr. Adams</persName> commented, "In every man there
+               remains a trace of the little boy. Perhaps this helps explain why husky <orgName ref="#UnitedStatesNavalConstructionBattalions">Seabees</orgName>, after doing a
+               hard day's work, enjoyed trying to raise live chicks for Easter. We appreciate the
+               interest and good wishes from our many friends in the States, and regret the project
+               was unsuccessful."</p>
+            <lb/>
+         </div>
+         <div type="article" subtype="NAFMcMurdo">
+            <ab>
+                    <placeName ref="#NAFMcMurdo">NAF MCMURDO</placeName> -- (<date when="1957-04-16">April 16</date>) -- Approach of the Antarctic of the Antarctic night and
+               shortened daylight have restricted outdoor work, and a recreation program is in
+               effect for whatever leisure time is available.</ab>
+            <lb/>
+            <p>An enlisted recreation council was formed and includes <persName ref="#LouisRMaher">Louis R. Maher</persName>, chief electronics technician, of <placeName ref="#OlatheKS">Olathe, Kan.</placeName>; <persName ref="#RichardDHarden">Richard
+                  D. Harden</persName>, chief air controlman, <placeName ref="#FortWorthTX">
+                        <choice>
+                     <sic>Forth</sic>
+                     <corr>Fort</corr>
+                  </choice> Worth, Tex.</placeName>; <persName ref="#DonaldEBlackenship">Donald E.
+                  Blackenship</persName>, builder 1/c, <placeName ref="#HighlandCA">Highland,
+                  Calif.</placeName>; <persName ref="#MarcusRiley">Marcus Riley</persName>,
+               construction driver 1/c, of <placeName ref="#DanvilleIL">Danville, Ill.</placeName>;
+                  <persName ref="#JohnECuster">John E Custer</persName>, machinery repairman 1/c, of
+                  <placeName ref="#SpringfieldIL">Springfield, Ill.</placeName>; <persName ref="#HenryJDeeks">Henry J. Deeks</persName>, construction mechanic 1/c, of
+                  <placeName ref="#IslingtonMA">Islington, Mass.</placeName>; <persName ref="#JosephJMalla">Joseph J. Malla</persName>, construction electrician 2/c,
+                  <placeName ref="#DetroitMI">Detroit, Mich.</placeName>; <persName ref="#AlfredJSwetokos">Alfred J. Swetokos</persName>, aviation machinist's mate
+               3/c, <placeName ref="#FlushingNY">Flushing, N.Y.</placeName>; and <persName ref="#RichardCMartin">Richard C. Martin</persName>, aviation electronic technician
+               3/c, <placeName ref="#MemphisTN">Memphis, Tenn.</placeName>
+                </p>
+            <lb/>
+            <p>The initiative of the council and the willingness of the men result in a well-rounded
+               program. Off duty volunteers have converted a building into a recreation hall,
+               complete with ping pong tables, pool, shuffleboard, reading lounge and music.</p>
+            <lb/>
+            <p>An empty quonset hut was made into a gym through the ingenuity of <persName ref="#RobertLFarnam">Robert L. Farnam</persName>, aviation electrician's mate 1/c,
+               of <placeName ref="#LewistonID">Lewiston, Idaho</placeName>; <persName ref="#JamesKKennedy">James K. Kennedy</persName>, aviation electronics technician
+               3/c, <placeName ref="#CortlandNY">Cortland, N. Y.</placeName>; <persName ref="#MosesLVigil">Moses L. Vigil, Jr.</persName>, aviation machinist's mate 2/c,
+                  <placeName ref="#DenverCO">Denver, Colo.</placeName>; <persName ref="#KennethLAlkio">Kenneth L. Alkio</persName>, aviation electronics technician
+               2/c, <placeName ref="#EurekaCA">Eureka, Calif.</placeName>; and <persName ref="#EstileGMiller">Estile G. Miller</persName>, airman, of <placeName ref="#BesocoWV">Besoco, W. Va.</placeName> The gym features weight lifting
+               apparatus, mats, and a steam bath box operated through a series of coils and an
+               overhead drum.</p>
+            <lb/>
+            <p>
+                    <persName ref="#MarshallFJones">Marshall F. "Rocky" Jones</persName>, photographer
+               1/c, of <placeName ref="#VanNuysCA">Van Nuys, Calif.</placeName>, conducts a
+               photography class twice weekly after movies. About 20 men sacrifice sleeping time to
+               become better shutter bugs.</p>
+            <lb/>
+            <p>
+                    <persName ref="#EdwardCSchenketh">Edward C. Schenketh</persName>, parachute rigger
+               1/c, of <placeName ref="#FlushingNY">Flushing, N.Y.</placeName>, worked long hours to
+               convert an Atwell tent into a hobby shop, stocked with building materials, kids and
+               models.</p>
+            <lb/>
+            <p>Other activities include movies, weekly bingo, and a one-hour Saturday evening
+               social. Each week's program is supplied by the occupants of the respective huts. Last
+               Saturday the officers performed courageously as the "Kool Kats" and presented a
+               unique program with self-made costumes and repetitive music--they only knew two
+               songs.</p>
+            <lb/>
+         </div>
+         <div type="article" subtype="SouthPole">
+            <ab>
+                    <placeName ref="#SouthPole">SOUTH POLE</placeName> -- (Delayed) -- In the ever
+               lessening twilight, two weeks after sunset and the beginning of the winter night,
+               limited outside work still continues</ab>
+            <lb/>
+            <fw>
+                    <num type="page" value="5">5</num>
+                </fw>
+            <pb facs="PLACEHOLDER" n="6"/>
+            <ab>at this isolate station. The temperatures, which has been consistently decreasing,
+               rose during the day from minus 87 in the early morning to an unseasonably warm minus
+               59 at midnight. Winds increased from 13 knots to 26 knots, with gusts up to 31 knots.
+               A further rise of both temperatures and winds is anticipated, also a greater amount
+               of blowing snow.</ab>
+            <lb/>
+            <p>As the sun circles the Pole at approximately 6 degrees below the horizon, the earth's
+               shadow is seen as a portion of black semicircle along the horizon opposite the sun's
+               azimuth, and the Antarctic at twilight remains uniform during a 24 hour period. The
+               first stars appeared <date when="1957-03-31">March 31</date> and now are seen in
+               increasing numbers.</p>
+            <lb/>
+            <p>At low temperatures exhaled breath emits a characteristic crackling roar like steam
+               escaping from an open valve and creates light fog throughout the tunnels. Outside
+               work of any type is increasingly difficult as temperatures drop. Altitude
+               (approximately 9,200 feet) causes more rapid breathing than normal when heavy work is
+               being done. Cold air burns the throat and chest necessitating a shorter pace with
+               frequent breaks to catch your breath and resume normal breathing.</p>
+            <lb/>
+            <p>The main tunnel at the <placeName ref="#SouthPoleStation">South Pole
+                  station</placeName> will be approximately 12 feet beneath the surface, six feet
+               wide and eight feet high, with branch tunnels off the sides at regular intervals.</p>
+            <lb/>
+            <p>Approximately 150 cubic feet of snow is required each day to be melted for drinking
+               water and other uses. The snow will be man-hauled from now on due to the fact that
+               cold weather precludes the use of tractors or weasels for hauling it. All vehicles
+               are in hibernation for the winter.</p>
+            <lb/>
+            <p>Despite the seemingly bleak aspect of our present environment, it is one of constant
+               interest to all. Even in minus 80 degree weather, personnel have been able to work
+               outside for up to three hours at a stretch without undue discomfort. Time passes
+               quickly and morale continues to be high in anticipation of a successful year.</p>
+            <lb/>
+         </div>
+         <div type="article" subtype="EllsworthStation">
+            <p>
+                    <placeName ref="#EllsworthStation">ELLSWORTH STATION</placeName> -- The air support
+               for <orgName ref="#InternationalGeophysicalYear">IGY</orgName> activities here is
+               being accomplished with two DeHavilland Otter aircraft and one HO4S helicopter. Here
+               again in the great Antarctic continent, responsibilities must fall upon a few.</p>
+            <lb/>
+            <p>Such is the case of <persName ref="#AtlesFLewis">Atles F. Lewis</persName>, aviation
+               mechanics for the Otter aircraft stationed here. In Antarctica each flight requires
+               the flight mechanic to spend approximately three hours working on the aircraft prior
+               to take-off. The facilities with which to work are few, and each plane must have the
+               snow brushed from it, the ice melted, the engine pre-heated and the fuel for the most
+               part pumped by hand, in addition to giving regular engine checks.</p>
+            <lb/>
+            <p>Although many flights have been flown already, the main support program will begin in
+               September, during the next Antarctic spring. With the planes safely put away from the
+               winter months, Lewis will be busy setting up shop and helping separate supplies
+               stored in the aviation building.</p>
+            <lb/>
+            <p>In October <persName ref="#AtlesFLewis">Lewis'</persName> present enlistment will
+               expire, and he will be the first man to reenlist here. He has already decided on the
+               next duty he desires. First he wants to go to flight engineers school and then to
+               Hawaii for duty as a flight engineer on a Super Constellation.</p>
+            <lb/>
+            <fw>
+                    <num type="page" value="6">6</num>
+                </fw>
+            <pb facs="PLACEHOLDER" n="7"/>
+         </div>
+         <div type="article" subtype="LittleAmerica">
+            <p>
+                    <placeName ref="#LittleAmerica">LITTLE AMERICA</placeName> -- This Station intends to
+               secure its helicopter for the winter due to the frigid weather. All aircraft have
+               been put away for the winter except one Otter and one R4D. Construction of Kiel
+               airfield antenna farm is underway. Health and morale at <placeName ref="#LittleAmerica">Little America</placeName> is excellent. Only 25 per cent of
+               the cargo deposited on the ice barrier by DF II supply ships still remains there. The
+               other 75 per cent has been safely returned to the Station.</p>
+            <lb/>
+         </div>
+         <div type="article" subtype="EllsworthStation">
+            <p>
+                    <placeName ref="#EllsworthStation">ELLSWORTH STATION</placeName> -- Items and
+               amounts, food-wise, for the wintering-over party here have been satisfactory with few
+               exceptions. It is recommended, though, that in the future there be less rabbit,
+               prunes, rhubarb, collard greens, and frankfurters, and more popcorn.</p>
+            <lb/>
+            <ab>New items recommended for next year's wintering party include fresh frozen carrots,
+               dill pickles, canned honey, chocolate chips, dehydrated cabbage, glazed citron peel,
+               and vanilla extract tablets.</ab>
+            <lb/>
+            <ab>A few utensils and table-ware items that might be useful are serving forks and
+               spoons, one bolt of turkish toweling, doughnut cutters, 96 boxes of tooth-picks,
+               three dozen ash trays, and 50 Christmas menus.</ab>
+         </div>
+         <div type="editorialInfo-1" rend="left-align">
+            <ab>Operation Deep Freeze Newsletter</ab>
+            <lb/>
+            <ab>
+                    <num type="volume" value="2">Volume II</num>, <num type="issue" value="2">No.
+                  2</num> -- <date when="1957-04-19">April 19, 1957</date>
+                </ab>
+            <lb/>
+            <lb/>
+            <ab>
+               <address>
+                  <addrLine> Phone Liberty 5-6700, Ext. 66675</addrLine>
+               </address>
+            </ab>
+            <lb/>
+            <lb/>
+            <ab>Duplicated and distributed by:</ab>
+            <lb/>
+            <ab>
+               <address>
+                  <addrLine>Commander</addrLine>
+                  <lb/>
+                  <addrLine>Naval Construction Battalions, Atlantic</addrLine>
+                  <lb/>
+                  <addrLine>Construction Battalion Center</addrLine>
+                  <lb/>
+                  <addrLine>Davisville, Rhode Island</addrLine>
+               </address>
+                </ab>
+         </div>
+         <div type="editorialInfo-2" rend="right-align">
+            <ab>
+               <address>
+                  <addrLine>Commander, U.S. Naval Support</addrLine>
+                  <lb/>
+                  <addrLine>Force, Antarctica</addrLine>
+                  <lb/>
+                  <addrLine>Room 214, Bldg. D.</addrLine>
+                  <lb/>
+                  <addrLine>6th &amp; Independence Ave., SW</addrLine>
+                  <lb/>
+                  <addrLine>Washington 25, D.C.</addrLine>
+               </address>
+                </ab>
+         </div>
+      </body>
+   </text>
+</TEI>
