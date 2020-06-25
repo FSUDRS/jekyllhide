@@ -11,7 +11,7 @@
     <div id="navbg">
   <div class="container">
     <ul class="nav">
-      <li id="headline"><strong>Pilot</strong></li>
+      <li id="headline"><strong>JekyllHIDE</strong></li>
       <li><a href="/">Home</a></li>
       <li><a href="/collections">Collection</a></li>
       <li><a href="/contact">Contact</a></li>
@@ -40,14 +40,10 @@ function highlight(){
     const re = new RegExp(queryReg, "ig")
     console.log(re)
     marked = text.replace(re, marking);
-    
     el.innerHTML = marked;
 }
-  function insertAfter(newNode, referenceNode) {
-    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
-  }
   var CETEIcean = new CETEI();
-  CETEIcean.getHTML5("/collection/ODFNV2I3.xml", function (data) {
+  CETEIcean.getHTML5("/TEI/ODFNV2I3.xml", function (data) {
     //parse out data variable
     document.getElementById("TEI").innerHTML = "";
     document.getElementById("TEI").appendChild(data);

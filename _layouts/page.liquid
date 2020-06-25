@@ -18,14 +18,10 @@ function highlight(){
     const re = new RegExp(queryReg, "ig")
     console.log(re)
     marked = text.replace(re, marking);
-    
     el.innerHTML = marked;
 }
-  function insertAfter(newNode, referenceNode) {
-    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
-  }
   var CETEIcean = new CETEI();
-  CETEIcean.getHTML5("{{baseurl}}/collection/{{page.filename}}.xml", function (data) {
+  CETEIcean.getHTML5("{{baseurl}}/TEI/{{page.filename}}.xml", function (data) {
     //parse out data variable
     document.getElementById("TEI").innerHTML = "";
     document.getElementById("TEI").appendChild(data);
