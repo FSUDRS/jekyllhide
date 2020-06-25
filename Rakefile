@@ -1,4 +1,4 @@
-namespace :pilot do
+namespace :hide do
   desc "create JSON for website"
   task :json, :collection do |t, args|
     require "rubygems"
