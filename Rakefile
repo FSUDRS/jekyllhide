@@ -20,7 +20,7 @@ namespace :hide do
         file["date"] = @doc.at_css("date").attr("when")
         file["text"] = filter(@doc.at_css("body"))
         file["filename"] = filename
-        file["link"] = "#{collection}/#{filename}".gsub("collection/", "").gsub(".xml", "")
+        file["link"] = "#{collection}/#{filename}".gsub("TEI/", "").gsub(".xml", "")
         files << file
       }
       return files
@@ -29,15 +29,15 @@ namespace :hide do
     if File.directory?("_#{args[:collection]}") == false
       Dir.mkdir "_#{args[:collection]}"
     end
-    filenames = Dir.glob("collection/*.xml")
+    filenames = Dir.glob("TEI/*.xml")
     File.write("_data/meta.json", parse(filenames, args[:collection]).to_json)
   end
 
   desc "generate pages in collection folder"
   task :pages, :collection do |t, args|
-    filenames = Dir.glob("collection/*.xml")
+    filenames = Dir.glob("TEI/*.xml")
     filenames.each { |filename|
-      token = filename.gsub("collection/", "").gsub(".xml", "")
+      token = filename.gsub("TEI/", "").gsub(".xml", "")
       frontmatter = "---\nlayout: page\nfilename: #{token}\n---"
       File.write("_#{args[:collection]}/#{token}.md", frontmatter)
     }
