@@ -29,4 +29,4 @@ collections:
 {% endfor %}
 ```
 
-- Run `bundle exec jekyll serve` and your collection will be running on localhost:4000/
+- Run `bundle exec jekyll serve` and jekyll will generate your website under a new directory, "_site", and start running it at localhost:4000/

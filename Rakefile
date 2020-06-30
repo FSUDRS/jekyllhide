@@ -1,44 +1,62 @@
 namespace :hide do
   desc "create JSON for website"
   task :json, :collection do |t, args|
+    #load necessry gems
     require "rubygems"
     require "nokogiri"
     require "json"
 
+    #filter function for readability later
     def filter(string)
       return string.content.gsub(/\s+/, " ")
     end
 
+    #parse function to read each TEI doc
     def parse(filenames, collection)
+      #empty file array
       files = []
+      #iterate over each filename
       filenames.each { |filename|
+        #open document, parse with nokogiri
         @doc = File.open(filename) { |f| Nokogiri::XML(f) }
+        #create empty file object
         file = {}
+        #get relevant metadatafields
         file["title"] = filter(@doc.xpath("//tei:title", "tei" => "http://www.tei-c.org/ns/1.0")[0])
         file["author"] = filter(@doc.at_css("author"))
         file["pub"] = filter(@doc.at_css("publisher"))
         file["date"] = @doc.at_css("date").attr("when")
         file["text"] = filter(@doc.at_css("body"))
         file["filename"] = filename
+        #generate link for jekyllHIDE
         file["link"] = "#{collection}/#{filename}".gsub("TEI/", "").gsub(".xml", "")
+        #append file info to large array of files
         files << file
       }
       return files
     end
 
+    #generate a collection directory if one doesnt exist
     if File.directory?("_#{args[:collection]}") == false
       Dir.mkdir "_#{args[:collection]}"
     end
+    #get all files from TEI directory
     filenames = Dir.glob("TEI/*.xml")
+    #write out all file metadata as json in data folder
     File.write("_data/meta.json", parse(filenames, args[:collection]).to_json)
   end
 
   desc "generate pages in collection folder"
   task :pages, :collection do |t, args|
+    #get filenames from TEI dir
     filenames = Dir.glob("TEI/*.xml")
+    #iterate over filenames
     filenames.each { |filename|
+      #get just the token of filename
       token = filename.gsub("TEI/", "").gsub(".xml", "")
+      #generate yaml frontmatter with token filename
       frontmatter = "---\nlayout: page\nfilename: #{token}\n---"
+      #write out info into markdown files inside collection directory
       File.write("_#{args[:collection]}/#{token}.md", frontmatter)
     }
   end
