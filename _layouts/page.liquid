@@ -3,7 +3,7 @@ layout: base
 ---
 <div id="TEI">
 </div>
-<script src="{{baseurl}}/assets/js/CETEI.js"></script>
+<script src="{{ site.baseurl }}/assets/js/CETEI.js"></script>
 <script>
 function marking(match){
     return "<mark>" + match +"</mark>";
@@ -21,7 +21,7 @@ function highlight(){
     el.innerHTML = marked;
 }
   var CETEIcean = new CETEI();
-  CETEIcean.getHTML5("{{baseurl}}/TEI/{{page.filename}}.xml", function (data) {
+  CETEIcean.getHTML5("{{ site.baseurl }}/TEI/{{page.filename}}.xml", function (data) {
     //parse out data variable
     document.getElementById("TEI").innerHTML = "";
     document.getElementById("TEI").appendChild(data);
@@ -36,4 +36,4 @@ function highlight(){
 
 </script>
 <script src="https://hypothes.is/embed.js"></script>
-<!--<script src="{{baseurl}}/assets/js/highlight.js"></script>-->
+<!--<script src="{{ site.baseurl }}/assets/js/highlight.js"></script>-->

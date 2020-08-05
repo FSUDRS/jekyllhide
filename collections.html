@@ -6,6 +6,6 @@ title: Collection
 <h1>Collection</h1>
 <ul>
     {% for work in site.odfn %}
-      <li><a href={{work.url}}>{{work.filename}}</a></li>
+      <li><a href={{site.baseurl}}{{work.url}}>{{work.title}}</a></li>
     {% endfor %}
   </ul>

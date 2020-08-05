@@ -48,14 +48,21 @@ namespace :hide do
 
   desc "generate pages in collection folder"
   task :pages, :collection do |t, args|
+    #load necessry gems
+    require "rubygems"
+    require "nokogiri"
     #get filenames from TEI dir
     filenames = Dir.glob("TEI/*.xml")
     #iterate over filenames
     filenames.each { |filename|
+      #open document, parse with nokogiri
+      @doc = File.open(filename) { |f| Nokogiri::XML(f) }
+      #get relevant metadatafields
+      title = @doc.xpath("//tei:title/text()", "tei" => "http://www.tei-c.org/ns/1.0")[0]
       #get just the token of filename
       token = filename.gsub("TEI/", "").gsub(".xml", "")
       #generate yaml frontmatter with token filename
-      frontmatter = "---\nlayout: page\nfilename: #{token}\n---"
+      frontmatter = "---\nlayout: page\ntitle: #{title}\nfilename: #{token}\n---"
       #write out info into markdown files inside collection directory
       File.write("_#{args[:collection]}/#{token}.md", frontmatter)
     }
