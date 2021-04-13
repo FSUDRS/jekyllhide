@@ -29,7 +29,7 @@ namespace :hide do
         file["text"] = filter(@doc.at_css("body"))
         file["filename"] = filename
         #generate link for jekyllHIDE
-        file["link"] = "#{collection}/#{filename}".gsub("TEI/", "").gsub(".xml", "")
+        file["link"] = "#{filename}".gsub("TEI/", "").gsub(".xml", "")
         #append file info to large array of files
         files << file
       }
@@ -41,7 +41,7 @@ namespace :hide do
       Dir.mkdir "_#{args[:collection]}"
     end
     #get all files from TEI directory
-    filenames = Dir.glob("TEI/*.xml")
+    filenames = Dir.glob("TEI/#{args[:collection]}/*.xml")
     #write out all file metadata as json in data folder
     File.write("_data/meta.json", parse(filenames, args[:collection]).to_json)
   end
@@ -52,19 +52,21 @@ namespace :hide do
     require "rubygems"
     require "nokogiri"
     #get filenames from TEI dir
-    filenames = Dir.glob("TEI/*.xml")
+    filenames = Dir.glob("TEI/#{args[:collection]}/*.xml")
     #iterate over filenames
     filenames.each { |filename|
       #open document, parse with nokogiri
       @doc = File.open(filename) { |f| Nokogiri::XML(f) }
       #get relevant metadatafields
-      title = @doc.xpath("//tei:title/text()", "tei" => "http://www.tei-c.org/ns/1.0")[0]
+      title = @doc.xpath("//tei:titleStmt/tei:title/text()", "tei" => "http://www.tei-c.org/ns/1.0")[0]
       #get just the token of filename
       token = filename.gsub("TEI/", "").gsub(".xml", "")
+      # get the date of the text
+      pubDate = @doc.xpath("//tei:imprint/tei:date/@when", "tei" => "http://www.tei-c.org/ns/1.0")[0]
       #generate yaml frontmatter with token filename
-      frontmatter = "---\nlayout: page\ntitle: #{title}\nfilename: #{token}\n---"
+      frontmatter = "---\nlayout: page\ntitle: #{title}\npubDate: #{pubDate}\nfilename: #{token}\n---"
       #write out info into markdown files inside collection directory
-      File.write("_#{args[:collection]}/#{token}.md", frontmatter)
+      File.write("_#{token}.md", frontmatter)
     }
   end
 end
